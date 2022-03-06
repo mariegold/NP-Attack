@@ -1,0 +1,28 @@
+defaults:
+  - strategy: predictor
+  - _self_
+
+dir: ${hydra:runtime.cwd}/data # /Users/MB/Desktop/black-box-asr/data 
+attacker: ${strategy.name}
+
+sr: 16000
+budget: 5000
+eps_perb: 0.00 # 0.01
+min_wer: 1e-9
+seed: 1234
+upper_lim: 2.0
+norm: inf
+
+asr:
+  name: asr-transformer-transformerlm-librispeech 
+  source: "speechbrain/${asr.name}"
+  savedir: "${dir}/pretrained_models/${asr.name}"
+
+wave_file: "${dir}/237-134500-0001.flac"
+out: False
+out_file: res.out
+
+hydra:
+  verbose: false
+  run:
+    dir: logs/
