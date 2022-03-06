@@ -2,6 +2,8 @@
 
 ## Requirements
 
+Make sure you are running Python 3.8 or later.
+
 ```python
 pip install -r requirements.txt
 ```
