@@ -1,25 +1,31 @@
 # NP-Attack: Neural Predictor for Black-Box Adversarial Attacks on Speech Recognition
 
-#### Set-up
+## Requirements
 
 ```python
-# optional: create a new environment
-conda create -n npattack
-conda activate npattack
-
-# install dependencies
-conda install pytorch torchaudio -c pytorch
 pip install -r requirements.txt
 ```
 
-#### Usage
+## Usage
 
-To run the NP-attack, modify `conf/config.yaml` to specify the audio file, query limit, perturbation budget etc. Then:
+To run the NP-attack, either modify `conf/config.yaml` directly, or via command line:
 
 ```python
-python main.py
+python main.py [wave_file=<wave_file>] [budget=<budget>] [eps_perb=<eps_perb>]
 ```
+For more information, refer to [Hydra documentation](https://hydra.cc/docs/intro/).
 
-Alternatively, the configuration can be overwritten from the command line (as one would with hydra).
+## Benchmark
+To evaluate the attack on the benchmark, follow these steps:
 
+*TODO: describe how to get the benchmark data and run the script*
 
+## Reference
+```
+@article{biolkova2022npattack,
+  title={NP-Attack: Neural Predictor for Black-Box Adversarial Attacks on Speech Recognition},
+  author={Biolková Marie and Nguyen Bac},
+  journal={arXiv preprint},
+  year={2022}
+}
+```
