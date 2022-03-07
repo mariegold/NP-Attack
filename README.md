@@ -15,12 +15,18 @@ To run the NP-attack, either modify `conf/config.yaml` directly, or via command 
 ```python
 python main.py [wave_file=<wave_file>] [budget=<budget>] [eps_perb=<eps_perb>]
 ```
-For more information, refer to [Hydra documentation](https://hydra.cc/docs/intro/).
+For more information, refer to [Hydra documentation](https://hydra.cc/docs/intro/). 
 
-## Benchmark
-To evaluate the attack on the benchmark, follow these steps:
+## Data
 
-*TODO: describe how to get the benchmark data and run the script*
+The LibriSpeech test-clean dataset can be downloaded:
+
+```
+wget https://www.openslr.org/resources/12/test-clean.tar.gz
+tar -xzvf test-clean.tar.gz
+```
+
+The list of samples used for benchmarking can be found in `data/benchmark.txt`.
 
 ## Reference
 ```
