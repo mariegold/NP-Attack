@@ -6,6 +6,10 @@ Recent works have revealed the vulnerability of automatic speech recognition (AS
 
 
 
+<img title="" src="./img/procedure.png" alt="procedure" width="513" data-align="center">
+
+
+
 ## Requirements
 
 Make sure you are running Python 3.8 or later.
