@@ -2,7 +2,7 @@
 
 [![Python 3.8](https://img.shields.io/badge/python-3.8-blue.svg)](https://www.python.org/downloads/release/python-380/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![arXiv](https://img.shields.io/badge/arXiv-1234.56789-b31b1b.svg)](https://arxiv.org/abs/2203.09849)
+[![arXiv](https://img.shields.io/badge/arXiv-2203.09849-b31b1b.svg)](https://arxiv.org/abs/2203.09849)
 
 ## Abstract
 
