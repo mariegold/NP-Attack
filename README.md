@@ -43,7 +43,7 @@ The list of samples used for benchmarking can be found in `data/benchmark.txt`.
 @article{biolkova2022npattack,
   title={Neural Predictor for Black-Box Adversarial Attacks on Speech Recognition},
   author={Biolková Marie and Nguyen Bac},
-  journal={arXiv preprint},
+  journal={arXiv preprint	arXiv:2203.09849},
   year={2022}
 }
 ```
